@@ -1,0 +1,107 @@
+.navbar{
+      padding: 0px;
+  /*    box-shadow: 0px 1px 12px #cccccc; */
+      width: 100%;
+      background-color: rgb(44,163,167);
+    border-bottom: none;
+    }
+
+
+
+#Legalr_logo{
+margin-left: 20px;
+}
+.toggler-container{
+      padding-right: 10px;
+    }
+
+.navbar-toggle{
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+#in{
+  font-size: 34px;
+}
+
+#kind{
+  font-size: 40px;
+}
+
+    .navbar-brand_text{
+      font-weight: 400;
+      color: white;
+      padding-left: 0px;
+      font-family: Roboto;
+    }
+
+    .navbar-brand_text:hover{
+      text-decoration: none !important;
+    }
+
+    .navbar-brand_logo{
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-right: 10px;
+    }
+
+    #r {
+      color: #3971a9;
+    }
+
+    #alpha {
+      font-weight: 300;
+      font-size: 13px;
+      padding-left: 5px;
+
+    }
+.scroll:hover {
+  text-decoration: none;
+}
+
+#searchicon{
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 9000px) {
+
+    .MenuOptions {
+      color: white;
+      text-align: right;
+      padding-right: 2px;
+      padding-left: 0px;
+      font-size: 25px;
+      font-weight: 400;
+      height: auto;
+    }
+
+  }
+
+
+@media screen and (max-width: 500px) {
+
+    .MenuOptions {
+      color: white;
+      text-align: right;
+      padding-right: 30px;
+      font-size: 20px;
+      font-weight: 400;
+      height: auto;
+    }
+
+    .navbar-brand_text{
+      padding-left: 20px;
+    }
+
+  }
+
+    .MenuOptions:hover {
+      color: #B71C1C;
+    }
+
+    .fa-search {
+      float: right;
+      padding-right: 10px;
+    }

@@ -1,0 +1,417 @@
+#Header_Col{
+background: linear-gradient(rgba(44,163,167,1), rgba(44,163,167,.87) );
+height: auto;
+}
+
+#Header_Row1{
+  top: 30%;
+}
+
+
+#FormContainer{
+  margin: auto;
+}
+#Logo{
+  display: block;
+  color: white;
+}
+
+a{
+  text-decoration: none !important;
+}
+#SignUpInput{
+}
+
+#LeftChevron:hover {
+  color: rgba(133, 131, 131, 1);
+}
+
+#RightX:hover {
+  color: rgba(133, 131, 131, 1);
+}
+
+#GetStartedButton{
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #D50000;
+  border: none;
+}
+
+#GetStartedButton:hover {
+  background-color: #B71C1C;
+}
+
+#GetStartedButton h5{
+  margin: auto;
+}
+
+
+#findservicebutton{
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  outline: none !important;
+}
+
+#findservicebutton:hover{
+  background-color: rgba(213,85,85,0.2);
+}
+
+#listservicebutton:hover{
+  background-color: rgba(213,85,85,0.2);
+}
+
+#listservicebutton:focus{
+  border: none;
+  outline: none !important;
+}
+
+#findservicebutton:focus{
+  border: none;
+  outline: none !important;
+}
+
+#findservicebutton span{
+  font-size: 20px;
+  font-weight: 500;
+  color: #d55555;
+}
+
+#findservicebutton span:hover{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+#listservicebutton{
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  outline: none !important;
+}
+
+#listservicebutton span:hover{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+.buttoncol{
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+}
+#listservicebutton span{
+  font-size: 20px;
+  font-weight: 500;
+  color: #d55555;
+}
+#LoginRow{
+  padding-bottom: 25px;
+}
+
+#SignUpButton{
+  margin: auto;
+  padding-left: 0px;
+  border-radius: 8px;
+  width: 240px;
+  background-color: rgb(51, 105, 232);
+  font-weight: 600;
+}
+
+.signupcol{
+  width: 240px;
+  padding: 0px;
+}
+#SignUpButton:hover {
+  background-color: rgb(23, 73, 190);
+}
+
+.SignUpSignInDiv{
+  margin: auto;
+  height: auto;
+}
+
+#SignInButton{
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+  width: 240px;
+  background-color: rgb(51, 105, 232);
+  font-weight: 600;
+}
+
+#SignInButton:hover {
+  background-color: rgb(23, 73, 190);
+}
+
+
+
+@media screen and (max-width: 9000px) {
+  #Logo {
+    margin-top: 150px;
+  }
+  .modal-dialog{
+    margin-top: 190px;
+  }
+  #LeftChevron{
+    transform: translate(-155px);
+    color: rgba(192, 192, 192, 1);
+  }
+  #RightX{
+    transform: translate(155px);
+    color: rgba(192, 192, 192, 1);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  #findservicebutton{
+    margin-top: 35px;
+  }
+  #listservicebutton{
+    margin-top: 35px;
+  }
+
+  #Logo {
+    margin-top: 150px;
+  }
+  .modal-dialog{
+    margin-top: 190px;
+  }
+  #LeftChevron{
+    transform: translate(-155px);
+    color: rgba(192, 192, 192, 1);
+  }
+  #RightX{
+    transform: translate(155px);
+    color: rgba(192, 192, 192, 1);
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  #findservicebutton{
+    margin-top: 40px;
+  }
+  #listservicebutton{
+    margin-top: 40px;
+  }
+  #Logo {
+    margin-top: 70px;
+  }
+  #Header_Col{
+    height: auto;
+  }
+  #SignUpRow{
+    margin-top: 25px;
+  }
+  .modal-dialog{
+    margin-top: 180px;
+  }
+  #LeftChevron{
+    transform: translate(-100px);
+    color: rgba(192, 192, 192, 1);
+  }
+  #RightX{
+    transform: translate(100px);
+    color: rgba(192, 192, 192, 1);
+  }
+}
+
+@media screen and (max-width: 390px) {
+
+  #findservicebutton{
+    margin-top: 25px;
+  }
+  #listservicebutton{
+    margin-top: 25px;
+  }
+
+  #SignUpRow{
+    margin-right: 30px;
+  }
+
+  #LeftChevron{
+    transform: translate(-70px);
+    color: rgba(192, 192, 192, 1);
+  }
+  #RightX{
+    transform: translate(70px);
+    color: rgba(192, 192, 192, 1);
+  }
+}
+
+
+#or{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#or p{
+  margin-bottom: 0px;
+}
+
+#FB_Col{
+  padding-top: 15px;
+}
+
+.fb-login-button{
+  margin: auto;
+  padding-top: 20px;
+}
+
+#PasswordInput{
+  border-top: 0px;
+}
+#AlertButton{
+  width: 240px;
+  margin-top: 15px;
+  border: none;
+  background-color: rgb(11, 112, 213);
+  height: 35px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+#AlertButton p{
+  font-size: 16px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.notification{
+  display:block;
+}
+#AlertButton:hover{
+   background-color: rgb(6, 86, 167);
+}
+
+#alert-form{
+  width: 240px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.modal-title {
+  margin: auto;
+  text-align: center;
+}
+
+#GetStartedText{
+  margin: auto;
+  text-align: center;
+}
+
+#alert-signup{
+  width: auto;
+  margin: auto;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 350px;
+}
+
+#FormContainer{
+  margin: auto;
+}
+@media screen and (max-width: 9000px) {
+  #alert-signup {
+    padding-top: 55px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #alert-signup {
+    padding-top: 35px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #alert-signup {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  #listservicebutton span{
+    font-size: 17px;
+  }
+  #findservicebutton span{
+    font-size: 17px;
+  }
+  #findservicebutton{
+    margin-top: 25px;
+    margin-right: 5px;
+  }
+  #listservicebutton{
+    margin-top: 25px;
+    margin-left: 5px;
+  }
+
+
+  #alert-signup {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.alert-signup-input{
+width: 240px;
+padding-left: 0px;
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+height: 35px;
+background-color: white;
+border: 1px solid rgba(192, 192, 192, 0.7);
+}
+
+#ModalBody{
+  background-color: rgba(192, 192, 192, 0.2);
+  height: auto;
+}
+
+@media screen and (max-width: 9000px) {
+
+
+}
+
+@media screen and (max-width: 400px) {
+}
+
+@media screen and (max-width: 9000px) {
+  #Logo h1{
+    color: white;
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 320px) {
+  #Logo h1{
+    color: white;
+    font-size: 50px;
+  }
+}
+
+
+*{
+  box-shadow: none;
+}
+*{
+  outline: none !important;
+}
+#Logo h4{
+  color: white;
+  font-size: 27px;
+}
