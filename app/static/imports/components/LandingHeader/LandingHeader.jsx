@@ -72,8 +72,8 @@ export default class LandingHeader extends Component{
               </Col>
               <Col md="12" sm="12" xs="12" className="text-center" id="alert-signup" >
                   <div>
-                  <Button onClick={this.findServiceClick} color="primary" id="findservicebutton"><Link to="/login"><span>Donate items</span></Link></Button>
-                  <Button onClick={this.listServiceClick} color="primary" id="listservicebutton"><Link to="/login"><span>Donate services</span></Link></Button>
+                  <Button onClick={this.findServiceClick} color="primary" id="findservicebutton">{/*}<Link to="/login">{*/}<span>Donate items</span>{/*}</Link to="/login">{*/}</Button>
+                  <Button onClick={this.listServiceClick} color="primary" id="listservicebutton">{/*}<Link to="/login">{*/}<span>Donate services</span>{/*}</Link to="/login">{*/}</Button>
                   </div>
               </Col>
           </Col>
