@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-from .config import Config
+from config import Config
 from flask_login import LoginManager, current_user, login_user, logout_user, login_required
 import random
 
