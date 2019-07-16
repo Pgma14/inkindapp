@@ -1,5 +1,5 @@
-from app import app, db
-from models import User, Post
+from server.app import app, db, LoginManager
+from server.models import User, Post
 
 @app.shell_context_processor
 def make_shell_context():
