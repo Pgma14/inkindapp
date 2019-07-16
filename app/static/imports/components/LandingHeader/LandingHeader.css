@@ -80,7 +80,7 @@ a{
 #findservicebutton span{
   font-size: 20px;
   font-weight: 500;
-  color: #d55555;
+  color: rgba(44,163,167,1);
 }
 
 #findservicebutton span:hover{
@@ -111,7 +111,7 @@ a{
 #listservicebutton span{
   font-size: 20px;
   font-weight: 500;
-  color: #d55555;
+  color: rgba(44,163,167,1);
 }
 #LoginRow{
   padding-bottom: 25px;

@@ -8,6 +8,9 @@
   background-color: #2ca3a7;
   border-bottom: none; }
 
+a:hover {
+  color: teal !important; }
+
 #Legalr_logo {
   margin-left: 20px; }
 
@@ -76,7 +79,7 @@
     padding-left: 20px; } }
 
 .MenuOptions:hover {
-  color: #B71C1C; }
+  color: teal; }
 
 .fa-search {
   float: right;
@@ -98,7 +101,7 @@
   padding-left: 10px; }
 
 .footer {
-  background-color: rgba(213, 85, 85, 0.65);
+  background-color: rgba(44, 163, 167, 0.65);
   height: 50px; }
 
 .footer h1 {
@@ -178,7 +181,7 @@ a {
 #findservicebutton span {
   font-size: 20px;
   font-weight: 500;
-  color: #d55555; }
+  color: #2ca3a7; }
 
 #findservicebutton span:hover {
   font-size: 20px;
@@ -205,7 +208,7 @@ a {
 #listservicebutton span {
   font-size: 20px;
   font-weight: 500;
-  color: #d55555; }
+  color: #2ca3a7; }
 
 #LoginRow {
   padding-bottom: 25px; }
@@ -572,7 +575,7 @@ a {
   padding-bottom: 0px;
   font-weight: bold;
   font-family: 'lato', Arial, sans-serif;
-  color: #d55555; }
+  color: #2ca3a7; }
 
 .what_we_do-background h1 {
   font-weight: 900;
@@ -587,7 +590,7 @@ a {
   font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.5em;
   font-weight: 300;
-  color: #d55555; }
+  color: #2ca3a7; }
 
 .heading-text-small {
   font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
@@ -602,13 +605,13 @@ a {
     padding-top: 20px; } }
 
 .fa-user {
-  color: #d55555; }
+  color: #2ca3a7; }
 
 .fa-rocket {
-  color: #d55555; }
+  color: #2ca3a7; }
 
 .fa-mobile-alt {
-  color: #d55555; }
+  color: #2ca3a7; }
 
 @media screen and (max-width: 600px) {
   #How_It_Works_container {
@@ -701,7 +704,7 @@ a {
 #How_It_Works_h1 {
   font-weight: 700;
   font-size: 50px;
-  color: #d55555; }
+  color: #2ca3a7; }
 
 .HowItWorksIconSection h3 {
   padding-left: 18px;
@@ -709,5 +712,5 @@ a {
   padding-top: 20px;
   font-size: 23px;
   font-weight: 600;
-  color: #d55555; }
+  color: #2ca3a7; }
 

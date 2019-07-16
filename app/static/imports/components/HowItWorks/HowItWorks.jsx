@@ -18,15 +18,15 @@ export default class HowItWorks extends Component {
               <Row id="HowItWorksRow">
                   <Col lg="4" md="4" sm="4" xs="12" className="HowItWorksIconSection text-center">
                     <i className="HowItWorksIcons fas fa-user" />
-                    <h3 className="text-center">Sign up with your e-mail. Let us know a little about you.</h3>
+                    <h3 className="text-center">List an item or service you would like to donate.</h3>
                   </Col>
                   <Col lg="4" md="4" sm="4" xs="12" className="HowItWorksIconSection text-center">
                     <i className="HowItWorksIcons fas fa-mobile-alt" />
-                    <h3>Get connected with someone who can get the job done.</h3>
+                    <h3>Get connected with charities in your area that need your item or service.</h3>
                   </Col>
                   <Col lg="4" md="4" sm="4" xs="12" className="HowItWorksIconSection text-center">
                     <i className="HowItWorksIcons fa fa-rocket" />
-                    <h3>Save time, go on an adventure.</h3>
+                    <h3>Save time, make an impact.</h3>
                   </Col>
               </Row>
              </Container>

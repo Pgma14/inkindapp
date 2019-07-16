@@ -6,6 +6,9 @@
     border-bottom: none;
     }
 
+a:hover{
+  color: teal !important;
+}
 
 
 #Legalr_logo{
@@ -98,7 +101,7 @@ margin-left: 20px;
   }
 
     .MenuOptions:hover {
-      color: #B71C1C;
+    color: teal;
     }
 
     .fa-search {

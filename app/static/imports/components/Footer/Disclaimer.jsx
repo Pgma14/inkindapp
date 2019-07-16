@@ -26,7 +26,7 @@ export default class Disclaimer extends Component {
           <ModalBody>
             <h3>Please Note</h3>
             <p>
-              By using Hustle you waive any claims against us. 
+              By using inKind you waive any claims against us. 
             </p>
           </ModalBody>
           <ModalFooter>

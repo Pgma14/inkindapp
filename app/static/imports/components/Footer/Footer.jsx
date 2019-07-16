@@ -11,7 +11,7 @@ export default class Footer extends Component {
         <Container fluid>
           <Row>
             <Col md="12" sm="12" xs="12" className="footer">
-              <h1 id="copyrightleft">© 2018 Hustle</h1>
+              <h1 id="copyrightleft">© 2019 inKind</h1>
               <h1 id="disclaimerright"><Disclaimer /></h1>
             </Col>
           </Row>

@@ -20,7 +20,7 @@ export default class WhatWeDoV2 extends Component {
                   </center>
                   <center>
                       <p className="heading-subtext">
-                        Hustle connects students on university campuses to get things done.
+                        inKind allows you to make donations easily while maximizing your impact. 
                       </p>
                   </center>
             </div>

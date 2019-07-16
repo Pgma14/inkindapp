@@ -63,7 +63,7 @@ export default class LandingHeader extends Component{
 
                 <div>
                   <h1 className="animated fadeIn">
-                    Donations simplified.
+                    Donations made easy.
                   </h1>
                   <br></br>
                 <h4>Find organizations that need your items or services.</h4>
@@ -72,8 +72,8 @@ export default class LandingHeader extends Component{
               </Col>
               <Col md="12" sm="12" xs="12" className="text-center" id="alert-signup" >
                   <div>
-                  <Button onClick={this.findServiceClick} color="primary" id="findservicebutton"><Link to="/login"><span>Find a service</span></Link></Button>
-                  <Button onClick={this.listServiceClick} color="primary" id="listservicebutton"><Link to="/login"><span>List a service</span></Link></Button>
+                  <Button onClick={this.findServiceClick} color="primary" id="findservicebutton"><Link to="/login"><span>Donate items</span></Link></Button>
+                  <Button onClick={this.listServiceClick} color="primary" id="listservicebutton"><Link to="/login"><span>Donate services</span></Link></Button>
                   </div>
               </Col>
           </Col>
