@@ -64,16 +64,16 @@ export class MyNavbar extends React.Component {
                 </Scrollchor>
               </NavLink>
                   </NavItem>
-                {/*}    <NavItem>
+                    <NavItem>
                  <NavLink className="MenuOptions">
-                            <a href="/login">Login</a>
-                            {% if current_user.is_anonymous %}
+                            <a className="navbar-brand_text" href="/demo">Demo</a>
+                          {/*}  {% if current_user.is_anonymous %}
                             <a href="{{ url_for('login') }}">Login</a>
                             {% else %}
                             <a href="{{ url_for('logout') }}">Logout</a>
-                            {% endif %}
+                            {% endif %} {*/}
               </NavLink>
-                  </NavItem>{*/}
+                  </NavItem>
                 </Nav>
               </Collapse>
             </Container>

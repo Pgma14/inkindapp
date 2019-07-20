@@ -13,14 +13,14 @@ export default class WhatWeDoV2 extends Component {
             <ScrollAnimation animateIn="fadeInRight" animateOnce="true">
               <Container>
             <div id="what_we_do_container">
-                <h1 id="what_we_do_h1">We know, you're busy.</h1>
+                <h1 id="what_we_do_h1">Who are we</h1>
                   <center>
                       <p className="heading-subtext-bolder">
                       </p>
                   </center>
                   <center>
                       <p className="heading-subtext">
-                        inKind allows you to make donations easily while maximizing your impact. 
+                        inKind was founded by students at Columbia University and Sciences Po Paris to connect people with items or services to donate with organizations that need their donations. 
                       </p>
                   </center>
             </div>
