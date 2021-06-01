@@ -92,7 +92,7 @@ tornado==4.5.3
 traitlets==4.3.2
 travis==0.0.3
 travis-encrypt==1.1.2
-urllib3==1.22
+urllib3==1.26.5
 virtualenv==16.2.0
 virtualenvwrapper-win==1.2.5
 visitor==0.1.3
